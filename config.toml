@@ -1,0 +1,20 @@
+baseURL = 'https://ask.post-self.ink/'
+languageCode = 'en-us'
+title = 'Ask. — An Odist Q&A'
+theme = 'maddybook'
+paginatePath = ""
+disablePathToLower = true
+
+[permalinks]
+    post = '/:filename/'
+
+[params]
+    # author = 'Madison Scott-Clary'
+    # home = 'https://makyo.ink'
+    copyright = 'The Post-Self authors 2020 — 2024'
+    customCSS = ['/css/ask.css']
+    subtitle = 'A Post-Self Project'
+    subtitleLink = 'https://post-self.ink'
+
+[markup.goldmark.renderer]
+    unsafe = true
